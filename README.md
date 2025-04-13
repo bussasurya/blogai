@@ -52,10 +52,3 @@ mysql -u root -p
 Create a database:
 CREATE DATABASE blog_tool;
 
-### 5. Update `app.py` with Your MySQL Credentials:
-db_config = {
-    'host': 'localhost',
-    'user': 'your_username',
-    'password': 'your_password',
-    'database': 'blog_tool'
-}
